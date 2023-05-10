@@ -133,3 +133,7 @@ a:hover {
     list-style: none;
     padding: 10px;
 }
+
+#reset-button {
+    padding: 5px;
+}
