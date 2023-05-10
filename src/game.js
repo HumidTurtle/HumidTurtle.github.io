@@ -23,7 +23,7 @@ function greeting() {
 
 function setup() {
     //creates canvas object and attaches it to specified container
-    let canvas = createCanvas(600, 600)
+    let canvas = createCanvas(500, 500)
     canvas.parent("game-container")
 
     for (let i = 0; i < BALLOON_TOTAL; i++) {

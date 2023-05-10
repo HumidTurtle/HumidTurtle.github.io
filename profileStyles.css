@@ -5,12 +5,14 @@ li {
 }
 
 p, h2 {
+    text-align: center;
     color: white;
     font-size: 1.2rem;
     font-family: 'Arial';
 }
 
 p, h3 {
+    text-align: center;
     font-size: 1.2rem;
     font-family: 'Arial';
 }
@@ -57,6 +59,7 @@ img {
   }
 
 body {
+    text-align: center;
     background-color: rgb(24, 26, 25);
     color: rgb(255, 255, 255);
 
@@ -70,21 +73,26 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: rgb(132, 188, 236);
 }
 
 .box-1 {
-    background-color: rgb(71, 69, 69);
-    border: 5px solid rgb(255, 255, 255);
-    padding: .8rem;
+    text-align: center;
+    background-color: rgb(71, 69, 69, 0.5);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: .2rem;
     margin: 50px;
 }
 
 .box-2 {
-    background-color: rgb(41, 56, 31);
-    border: 5px solid rgb(255, 255, 255);
-    padding: 0.5rem;
-    margin: 5px 2rem;
+    text-align: center;
+    background-color: rgb(41, 56, 31, 0.5);
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.2rem;
+    margin: 50px;
 }
 
 .container {
@@ -93,7 +101,8 @@ h1 {
 }
 
 /* footer h4 - descendant */
-footer>h4 /* child */{
+footer /* child */{
+    text-align: center;
     font-weight: bolder;
     font-style: italic;
     text-decoration: underline;
@@ -125,7 +134,8 @@ a:hover {
     justify-content: center;
     gap: 15vw;
     border-bottom: 2px solid white;
-    background-color: rgb(218, 133, 36);
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
